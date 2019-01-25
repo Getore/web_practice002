@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <!-- 手机宽度自动适配 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0, user-scalable=no"/>
+    <!--引入CSS样式，使用link的方式-->
+    <link type="text/css" rel="stylesheet" href="css/user-login.css">
+    <!--引入jQuery-->
+    <script src="js/jquery-1.12.4.js"></script>
+</head>
+<body>
+<div>
+    <div class="head">
+        <p>
+            用户登录
+        </p>
+    </div>
+    <div>
+        <form class="login-form">
+            <div class="login-account-row login-account-radius">
+                <input id="input-account" class="login-input login-input-account" type="text" placeholder="用户名"/>
+                <!--清空文字-->
+                <a href="javascript:;" id="input-clear-text-account" class="input-clear-text"></a>
+            </div>
+            <div class="login-account-row login-pass">
+                <input id="input-pass" class="login-input login-input-pass" type="password" placeholder="密码">
+                <!--清空文字 和 查看密码-->
+                <a href="javascript:;" id="pass-text-id" class="pass-text"></a>
+                <span id="cut-line-span-id" class="cut-line-span"></span>
+                <a href="javascript:;" id="input-clear-text-pass" class="input-clear-text"></a>
+            </div>
+
+            <div class="login-pass-row">
+                <!--忘记密码 和 记住密码-->
+                <a href="javascript:;" class="forget-pass">忘记密码？</a>
+                <a href="javascript:;" id="remember-pass-id" class="remember-pass">记住密码</a>
+            </div>
+            <button class="login-button">登录</button>
+        </form>
+    </div>
+</div>
+<!--关联JavaScripe文件-->
+<script type="text/javascript" src="js/user-login.js"></script>
+</body>
+</html>

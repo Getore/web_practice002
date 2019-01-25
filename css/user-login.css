@@ -1,0 +1,143 @@
+/* 重置默认响应式基础设置 */
+html, body, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*头部的“用户登录”需要重置一下p标签，不然会出现上部空格*/
+p{
+    margin: 0;
+}
+/*清除a标签额下划线*/
+a{
+    text-decoration: none;
+}
+/* 重置默认响应式基础设置 */
+
+body{
+    font-family: STHeitiSC;
+    font-weight: lighter;
+}
+.head{
+    background-color: #FF8200;
+    color: #FFFFFF;
+    line-height: 44px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+.login-form{
+    margin: 15px 15px auto;
+}
+.login-form .login-account-row{
+    position: relative;
+    height: 55px;
+    border: 1px solid #E7E7E7;
+    background: url("../img/icon-account.png") no-repeat local 18px center/15px auto border-box border-box #FFFFFF;
+}
+.login-form .login-input{
+    display: block;
+    border: none;
+    font-size: 15px;
+    padding-left: 51px;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    background: none;
+    line-height: 55px;
+}
+.login-form .login-input-account{
+    padding-right: 50px;
+}
+.login-form .login-input-pass{
+    padding-right: 104px;
+}
+/*当在点击输入框，取消边框效果*/
+input:focus{
+    outline-style: none;
+}
+.login-form .login-account-radius{
+    border-radius: 10px 10px 0 0;
+}
+.login-form .login-pass{
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+    background-image: url("../img/icon-lock.png");
+}
+.login-pass-row{
+    margin-top: 18px;
+    line-height: 18px;
+}
+.login-pass-row .forget-pass{
+    float: right;
+    color: #4A4E5A;
+    font-size: 15px;
+}
+.login-pass-row .remember-pass{
+    padding-left: 22px;
+    background: url("../img/icon-check-box.png") no-repeat local 0 center/18px auto border-box border-box #FFFFFF;
+    font-size: 13px;
+    color: #A3A4AA;
+}
+.login-pass-row .remember-pass-remember{
+    background-image: url("../img/icon-check-right.png");
+}
+.login-button{
+    width: 100%;
+    margin-top: 25px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 4px;
+    background-color: #FF8200;
+    border: 1px solid #FF8200;
+}
+.input-clear-text{
+    position: relative;
+    float: right;
+    background:url("../img/icon-cancel.png") center center no-repeat;
+    background-size: 13px;
+    width: 13px;
+    height: 13px;
+    padding: 22px 20px 20px 10px;
+    display: none;
+}
+.cut-line-span{
+    width: 1px;
+    height: 9px;
+    background: #DFDFDF;
+    float: right;
+    margin: 23px 0 23px 0;
+    display: none;
+}
+.pass-text{
+    position: relative;
+    float: right;
+    background:url("../img/icon-visible-eye.png") center center no-repeat;
+    background-size: 18px;
+    width: 18px;
+    height: 11px;
+    padding: 25px 10px 19px 18px;
+    display: none;
+}
+.text-pass{
+    background-image: url("../img/icon-invisible-eye.png");
+}
+
+
+
+
+
